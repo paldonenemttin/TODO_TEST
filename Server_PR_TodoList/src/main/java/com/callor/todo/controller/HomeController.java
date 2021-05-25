@@ -1,4 +1,4 @@
-package com.callor.todo.service;
+package com.callor.todo.controller;
 
 import java.io.IOException;
 import java.util.List;
@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.callor.todo.model.TodoVO;
+import com.callor.todo.service.TodoService;
 import com.callor.todo.service.impl.TodoServiceImpl;
 
 @WebServlet("/")
